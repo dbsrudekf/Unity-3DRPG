@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e482e7f47bb8e6e48bb35814ce61a9d7, type: 3}
+  m_Name: BossEnemyDrops
+  m_EditorClassIdentifier: 
+  potentialDrops:
+  - item: {fileID: 11400000, guid: 1b840f9cb8a691645a2c8f98d7d0488f, type: 2}
+    relativeChance:
+    - 10
+    - 20
+    minNumber: 
+    maxNumber: 
+  - item: {fileID: 11400000, guid: 1d7e31d42c9eab743915f76380a1230d, type: 2}
+    relativeChance:
+    - 10
+    - 20
+    minNumber: 
+    maxNumber: 
+  - item: {fileID: 11400000, guid: 803110659cf3a364fac78ce5b259cb33, type: 2}
+    relativeChance:
+    - 10
+    - 20
+    minNumber: 
+    maxNumber: 
+  - item: {fileID: 11400000, guid: d75db58d9eb9b7046a54ec13bdb05249, type: 2}
+    relativeChance:
+    - 10
+    - 20
+    minNumber: 140000001e000000
+    maxNumber: 2800000032000000
+  dropChancePercentage:
+  - 100
+  minDrops: 01000000
+  maxDrops: 03000000

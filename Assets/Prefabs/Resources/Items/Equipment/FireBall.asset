@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15b218306299af440a236eacb8bd6f7b, type: 3}
+  m_Name: FireBall
+  m_EditorClassIdentifier: 
+  itemID: c65c27c9-06a3-42c0-a2c2-a8ea5080a37d
+  displayName: FireBall
+  description: 
+  icon: {fileID: 21300000, guid: 5732dc58816b91d4dbc488b1b3c8f08b, type: 3}
+  pickup: {fileID: 4949085166418760526, guid: 1743d5498df1fc64b9c2db502e6253d2, type: 3}
+  stackable: 0
+  price: 0
+  category: 2
+  allowedEquipLocation: 5
+  equipCondition:
+    and: []
+  weaponRange: 20
+  weaponDamage: 5
+  percentageBonus: 0
+  isRightHanded: 0
+  animatorOverride: {fileID: 22100000, guid: c7f2d21cd9c55ac40bd17e347c42e586, type: 2}
+  equippedPrefab: {fileID: 0}
+  projectile: {fileID: 5040288101565498923, guid: 67921f243cb04824297338d2f3133bc6, type: 3}

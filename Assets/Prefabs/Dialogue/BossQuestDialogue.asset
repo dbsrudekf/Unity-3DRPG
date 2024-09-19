@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6587375605627029418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47f9822ccae4d354bbef9e5d89b0b76d, type: 3}
+  m_Name: 6d50b2de-640f-4e8d-bb18-bba9f245e5fe
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Hi GiveQuest
+  children:
+  - 1f68d5ef-8ff9-466c-8d9b-c84020937814
+  rect:
+    serializedVersion: 2
+    x: 470
+    y: 274
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-2860020233985565506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47f9822ccae4d354bbef9e5d89b0b76d, type: 3}
+  m_Name: 9fb2e1ab-425d-4ae1-93d7-446ae3c52a58
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Hi
+  children:
+  - 6d50b2de-640f-4e8d-bb18-bba9f245e5fe
+  rect:
+    serializedVersion: 2
+    x: 221
+    y: 273
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65fdae2c63b0a9a4cb8aa10afbd95bbd, type: 3}
+  m_Name: BossQuestDialogue
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -2860020233985565506}
+  - {fileID: -6587375605627029418}
+  - {fileID: 7400258560066243339}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &7400258560066243339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47f9822ccae4d354bbef9e5d89b0b76d, type: 3}
+  m_Name: 1f68d5ef-8ff9-466c-8d9b-c84020937814
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Ok
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 723
+    y: 274
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: GiveQuest
+  condition:
+    and: []
